@@ -6,7 +6,7 @@ font-size: 1em;
 
 body{
 margin: 0px;
-
+padding: 0px;
 
 }
 a{
@@ -20,7 +20,10 @@ a{
 ul{
 list-style-type: none;
 }
+#menu{
 
+
+}
 
 .nav{
 position: absolute;
@@ -33,20 +36,24 @@ width: 60%;
 line-height: 40px;
 height: 40px;
 }
+
+.nav li{
+float: left;
+}
 .activenav{
 position: fixed;
 right: 0px;    
 top:0px;
+padding-top: 0px;
+margin-top: 0px;
 background: rgb(0, 0, 0); /* The Fallback */
 background: rgba(0, 0, 0, 0.8); 
 text-transform:uppercase;
 width: 60%;
 line-height: 40px;
 height: 40px;
-
-
 }
-.nav li{
+.activenav li{
 float: left;
 }
 
