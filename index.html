@@ -16,14 +16,7 @@
     </head>
     <body>
     
-        <ul class="nav" id="menu">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#photos">Photos</a></li>
-            <li><a href="#web">Web Design</a></li>
-            <li><a href="#projects">Personal Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+       
     
     <div class="panel" id="home">
         <img id="bgimage" src="2.jpg" ></img>
@@ -31,18 +24,26 @@
         <!-- <h1>MASHALLAH BEHBEHANI</h1> -->
         </div>
         <!-- <div class="sexy_line"></div> -->
-        
+         <ul class="nav" id="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#photos">Photos</a></li>
+            <li><a href="#web">Web Design</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
     </div>
     <div class="panel" id="about">
-        <h1>ABOUT</h1>
+        <h1>I'm Mashallah Behbehani</h1>
+
+        <p>I'm live in Arlington, Texas. I love frontend web development, and I have a focus on web apps and mobile design.</p>
         <div class="content">
                 <div class="col">
                     <p>Skills</p>
                         <ul id="skill">
-                            <li><span class="bar" id="skill1"></span><h3>HTML</h3></li>
-                            <li><span class="bar" id="skill2"></span><h3>CSS</h3>
+                            <li><span class="bar" id="skill1"></span><h3>HTML5</h3></li>
+                            <li><span class="bar" id="skill2"></span><h3>CSS3</h3>
                             <li><span class="bar" id="skill3"></span><h3>Ruby on Rails</h3>
-                            <li><span class="bar" id="skill4"></span><h3>jQuery</h3>
+                            <li><span class="bar" id="skill4"></span><h3>Javascript / jQuery</h3>
                         </ul>   
                 </div>
             </div>
@@ -53,9 +54,6 @@
     <div class="panel" id="web">
         <h1>Web Design</h1>
         <h2>Previous Work</h2>
-    </div>
-    <div class="panel" id="projects">
-        <h1>Projects</h1>
     </div>
     <div class="panel" id="contact">
         <h1>Contact</h1>
@@ -95,9 +93,15 @@
       $('#menu').addClass('activenav').removeClass('nav');
     
     }
+    
   )
+});
+            $(document).ready(function() {
+    // Call horizontalNav on the navigations wrapping element
+    $('ul .nav').horizontalNav({});
 });
         </script>
 <script src="waypoints.js" type="text/javascript"></script>
+<script src="jquery.horizontalNav.js" type="text/javascript"></script>
     </body>
 </html>
