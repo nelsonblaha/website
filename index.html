@@ -59,9 +59,10 @@
                  </div>
              </div>-->
         <div class="circle">
-            <div class="circlecontent">
-                <p>Log In</p>
-            </div>
+            <div class="circlebg"><p>Log In</p></div>
+           <!--  <div class="circlecontent"> -->
+                
+            <!-- </div> -->
         </div>
     </div>
     <div class="panel" id="web">
@@ -113,6 +114,10 @@
     // Call horizontalNav on the navigations wrapping element
     $('ul .nav').horizontalNav({});
 });
+$("div").click(function () {
+      $(this).hide("scale", {}, 1000);
+});
+
         </script>
 <script src="waypoints.js" type="text/javascript"></script>
 <script src="jquery.horizontalNav.js" type="text/javascript"></script>
