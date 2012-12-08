@@ -129,17 +129,19 @@ background-repeat:no-repeat;
 background-size: 100% auto;
 }
 #photos h2{
-	   color: white; 
+	   color: black; 
 	   font: bold 24px/45px Helvetica, Sans-Serif; 
-	   letter-spacing: -1px;  
-	   background: rgb(0, 0, 0); /* fallback color */
-	   background: rgba(0, 0, 0, 0.7);
-	   padding: 10px; 
+       padding: 50%;
+	/*   padding: 10px; 
 	text-align: right;
 	display:inline;
 	left: 80%;
 	top: 600px;
-	position:relative;
+	position:relative;*/
+}
+#photos p{
+padding-top: 80px;
+text-align: center;
 }
 #web{
 background-image: url(images/bokeh26.jpg);
@@ -303,7 +305,13 @@ background-image: url(images/bokeh9.jpg);
     background-color: orange;
 	
 }
+.circle{
+background-color: orange;
+height: 200px;
+width: 200px;
+border-radius: 50%;
 
+}
 
 
 /*.menu{
