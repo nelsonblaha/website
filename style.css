@@ -91,7 +91,7 @@ float:none;
 -ms-transform: skewY(-12deg);
 transform: skewY(-12deg);*/
 }
-h2{font-family: 'Open Sans', sans-serif;
+/*h2{font-family: 'Open Sans', sans-serif;
 font-size: 3em;
 color:#FFFFFF;
 font-weight: 300; 
@@ -103,7 +103,7 @@ margin-top: 0;
 -o-transform: skewY(-12deg);
 -ms-transform: skewY(-12deg);
 transform: skewY(-12deg);
-}
+}*/
 p{font-family: 'Open Sans', sans-serif;
 font-size: 2em; 
 margin-left:5%;
@@ -127,6 +127,19 @@ background-repeat:no-repeat;
 -webkit-background-size: 100% auto;
 -moz-background-size: 100% auto;
 background-size: 100% auto;
+}
+#photos h2{
+	   color: white; 
+	   font: bold 24px/45px Helvetica, Sans-Serif; 
+	   letter-spacing: -1px;  
+	   background: rgb(0, 0, 0); /* fallback color */
+	   background: rgba(0, 0, 0, 0.7);
+	   padding: 10px; 
+	text-align: right;
+	display:inline;
+	left: 80%;
+	top: 600px;
+	position:relative;
 }
 #web{
 background-image: url(images/bokeh26.jpg);
@@ -286,7 +299,10 @@ background-image: url(images/bokeh9.jpg);
         0 1px 2px rgba(0,0,0,0.1);
     transition: all 0.4s ease-in-out;
 }
-
+.ch-img-1 { 
+    background-color: orange;
+	
+}
 
 
 
