@@ -60,9 +60,9 @@
              </div>-->
         <div class="circle">
             <div id="login" class="circlebg"><p>Log In</p></div>
-           <!--  <div class="circlecontent"> -->
-                
-            <!-- </div> -->
+        <div id="circlecontent">
+                <p>type here</p>
+             </div>
         </div>
     </div>
     <div class="panel" id="web">
@@ -114,8 +114,9 @@
     // Call horizontalNav on the navigations wrapping element
     $('ul .nav').horizontalNav({});
 });
-$("div").click(function () {
-      $('#login').toggleClass("circlecontent")
+$(".circle").click(function () {
+      $('#login').hide('slow')
+      $('#circlecontent').show()  
 });
 
         </script>
