@@ -171,11 +171,10 @@ width: inherit;
 border-radius: 50%;
 }
 #password{
-position: absolute;
-padding-top: 80px;
-width: inherit;
-margin: 0 auto;
 color: #FFFFFF;
+overflow: hidden;
+text-align: center;
+padding-top:60px;
 }
 
 
