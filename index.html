@@ -59,7 +59,7 @@
                  </div>
              </div>-->
         <div class="circle">
-            <div class="circlebg"><p>Log In</p></div>
+            <div id="login" class="circlebg"><p>Log In</p></div>
            <!--  <div class="circlecontent"> -->
                 
             <!-- </div> -->
@@ -115,7 +115,7 @@
     $('ul .nav').horizontalNav({});
 });
 $("div").click(function () {
-      $(this).hide("scale", {}, 1000);
+      $('#login').toggleClass("circlecontent")
 });
 
         </script>
