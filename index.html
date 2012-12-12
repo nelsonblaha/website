@@ -51,18 +51,17 @@
             </div>
     </div>
     <div class="panel" id="photos">
-    <!--    <h1>Photos</h1>
-      <div class="ch-item ch-img-1">
-                 <div class="ch-info">
-                     <h3>Use what you have</h3>
-                     <p>by Angela Duncan <a href="http://drbl.in/eOPF">View on Dribbble</a></p>
-                 </div>
-             </div>-->
         <div class="circle">
             <div id="login" class="circlebg"><p>Log In</p></div>
         <div id="circlecontent">
-                <p>type here</p>
+          <div id="password">
+                       <form action="" method="post">
+                        <label for="POST-name">Password?</label>
+                        <input id="POST-name" type="text" name="name">
+                        <input type="submit" value="Sign In">
+                      </form>
              </div>
+          </div>
         </div>
     </div>
     <div class="panel" id="web">
@@ -82,17 +81,11 @@
         $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top
         }, 2500,'easeInOutExpo');
-        /*
-        if you don't want to use the easing effects:
-        $('html, body').stop().animate({
-            scrollTop: $($anchor.attr('href')).offset().top
-        }, 1000);
-        */
         event.preventDefault();
     });
 });
-            $(function() {                     // When the page has loaded,
-  $('#about').waypoint(               // create a waypoint
+            $(function() {                   
+  $('#about').waypoint(              
     function() {
       $('#skill1').addClass('activebar1');
       $('#skill2').addClass('activebar2');
@@ -101,8 +94,8 @@
     }
   )
 });
-            $(function() {                     // When the page has loaded,
-  $('#menu').waypoint(               // create a waypoint
+            $(function() {                     
+  $('#menu').waypoint(              
     function() {
       $('#menu').addClass('activenav').removeClass('nav');
     
