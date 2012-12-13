@@ -14,7 +14,7 @@ a{
     text-decoration:none;
     display:block;
     padding:0px 10px;
-    text-align: center;
+
 
 }
 ul{
@@ -66,7 +66,14 @@ line-height: 2.5em;
 height: 2.5em;
 
 }
+.nav a{
+    color:#fff;
+    text-decoration:none;
+    display:block;
+    padding:0px 10px;
+    text-align: center;
 
+}
 .nav li{
 float: left;
 padding:0px 10px;
@@ -88,10 +95,17 @@ height: 40px;
 float: left;
 padding:0px 10px;
 }
+.activenav a{
+    color:#fff;
+    text-decoration:none;
+    display:block;
+    padding:0px 10px;
+    text-align: center;
 
+}
 .panel{
 width: 100%;
-min-height: 1000px;
+min-height: 2000px;
 margin:0px;
 float:left;/*
 box-shadow:inset 0px 10px 10px rgba(0,0,0,0.2);*/
@@ -177,12 +191,22 @@ text-align: center;
 padding-top:60px;
 }
 
+.webcircle{
+    border-radius: 50%;
+    background-image: url(octocatsmall.png);
+    height: 150px;
+    width: 150px;
+    border: solid black 1px
 
+}
 
 
 #web{
-background-image: url(images/bokeh26.jpg);
+background-color: white;
 
+}
+#web a{
+color: black;
 }
 #web h1{
 
@@ -325,20 +349,6 @@ background-image: url(images/bokeh9.jpg);
 @-webkit-keyframes html-css        { 0%  { width:0px;} 100%{ width:90%;}  }
 @-webkit-keyframes jquery      { 0%  { width:0px;} 100%{ width:65%;}  }
 @-webkit-keyframes wordpress   { 0%  { width:0px;} 100%{ width:80%;}  }
-
-.ch-item {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    overflow: hidden;
-    position: relative;
-    cursor: default;
-    box-shadow: 
-        inset 0 0 0 16px rgba(255,255,255,0.6),
-        0 1px 2px rgba(0,0,0,0.1);
-    transition: all 0.4s ease-in-out;
-}
-
 
 /*smartphone responsive layout*/
 @media only screen and (min-width: 0px) and (max-width: 679px) {
