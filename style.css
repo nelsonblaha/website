@@ -1,3 +1,7 @@
+@font-face{
+  font-family:'BebasNeue';
+  src: url('BebasNeue.otf'); /* everyone else take this */
+}
 html { width: 100%;
 font-family: 'Open Sans', sans-serif;
 font-size: 1em;
@@ -20,7 +24,7 @@ a{
 ul{
 list-style-type: none;
 }
-h1{font-family: 'leaguegothic', sans-serif;
+h1{font-family: 'BebasNeue', sans-serif;
 font-size: 6em;
 color:#FFFFFF;
 text-transform: uppercase;
@@ -312,7 +316,7 @@ content: '';
 opacity: 1;
 }
 #web{
-background-color: white;
+background-color: #262626;
 
 }
 #web > a{
@@ -320,6 +324,9 @@ color: black;
 }
 #web h1{
 
+}
+#web h3{
+color: #fff;
 }
 #projects{
 background-image: url(images/bokeh58.jpg);
@@ -357,7 +364,7 @@ background-image: url(images/bokeh9.jpg);
 
 #skill li { 
     margin-bottom:50px; 
-    background:#e9e5e2;
+    background:#262626;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#e1ddd9), to(#e9e5e2));
     background-image: -webkit-linear-gradient(top, #e1ddd9, #e9e5e2);
     background-image: -moz-linear-gradient(top, #e1ddd9, #e9e5e2);
@@ -383,13 +390,14 @@ background-image: url(images/bokeh9.jpg);
     border-radius:10px;
     -moz-box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;
     -webkit-box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;    
-    box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;       
+    box-shadow: 0 1px 0px #fcfcfc inset, 0 1px 0 #bebbb9;
+
 }
 .activebar1 {
     width:100%; 
      -moz-animation:graphic-design 2s ease-out;
     -webkit-animation:graphic-design 2s ease-out;
-    background-color: #f674a4;
+    background-color: #262626;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#f674a4), to(#e06995));
     background-image: -webkit-linear-gradient(top, #f674a4, #e06995);
     background-image: -moz-linear-gradient(top, #f674a4, #e06995);
