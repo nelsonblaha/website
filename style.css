@@ -215,8 +215,8 @@ content: '';
      clear: both;
 }
 .logocircle-grid li {
-    width: 220px;
-    height: 220px;
+    width: 170px;
+    height: 170px;
     display: inline-block;
     margin: 20px;
 }
@@ -241,7 +241,7 @@ content: '';
     background-image: url(octocatsmall.png);
 }
 .stacklogo{
-    background-image: url(stackoverflow150.png);
+    background-image: url(stackoverflow.png);
 
 }
 .logocircle-info{
@@ -288,7 +288,7 @@ content: '';
     
     text-transform: uppercase;
     
-    padding-top: 100px;
+    padding-top: 40%;
 }
  
 .logocircle-info p a:hover {
