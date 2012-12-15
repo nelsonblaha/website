@@ -1,6 +1,6 @@
 @font-face{
   font-family:'BebasNeue';
-  src: url('BebasNeue.otf'); /* everyone else take this */
+  src: url('BebasNeue.otf'); 
 }
 html { width: 100%;
 font-family: 'Open Sans', sans-serif;
@@ -28,8 +28,8 @@ h1{font-family: 'BebasNeue', sans-serif;
 font-size: 6em;
 color:#FFFFFF;
 text-transform: uppercase;
-text-align: center;
-text-shadow: 7px 3px 6px rgba(71,80,23,0.3);
+text-align: left;
+/*text-shadow: 7px 3px 6px rgba(71,80,23,0.3);*/
 padding-left: 3%;
 float:none;
 /*-moz-transform: skewY(-12deg);
@@ -38,19 +38,7 @@ float:none;
 -ms-transform: skewY(-12deg);
 transform: skewY(-12deg);*/
 }
-/*h2{font-family: 'Open Sans', sans-serif;
-font-size: 3em;
-color:#FFFFFF;
-font-weight: 300; 
-text-align: center;
-text-shadow: 5px 5px 5px rgba(71,80,23,0.3);
-margin-top: 0;
--moz-transform: skewY(-12deg);
--webkit-transform: skewY(-12deg);
--o-transform: skewY(-12deg);
--ms-transform: skewY(-12deg);
-transform: skewY(-12deg);
-}*/
+
 p{font-family: 'Open Sans', sans-serif;
 font-size: 2em; 
 margin-left:5%;
@@ -109,7 +97,7 @@ padding:0px 10px;
 }
 .panel{
 width: 100%;
-min-height: 2000px;
+min-height: 1200px;
 margin:0px;
 float:left;/*
 box-shadow:inset 0px 10px 10px rgba(0,0,0,0.2);*/
@@ -119,10 +107,8 @@ box-shadow:inset 0px 10px 10px rgba(0,0,0,0.2);*/
 /*background-image: url(japan1.jpg); */
 }
 .bgimage {
-    margin-left: -100%
-    margin-right:-100%;
     z-index: -1;
-    position: relative;
+    width: 100%;
 
 }
 
@@ -133,21 +119,51 @@ display:block;
 position: relative;
 }
 #about{
-/*background-image: url(images/bokeh2.jpg)*/;
-
+/*background-image: url(purplebg180.jpg)*/;
 }
+
+#about h2{font-family: 'Six Caps', sans-serif;
+font-size: 3em;
+color:#FFFFFF;
+font-weight: 300; 
+text-align: center;
+text-shadow: 5px 5px 5px rgba(71,80,23,0.3);
+margin-top: 0;
+-moz-transform: skewY(-12deg);
+-webkit-transform: skewY(-12deg);
+-o-transform: skewY(-12deg);
+-ms-transform: skewY(-12deg);
+transform: skewY(-12deg);
+}
+
+
 #about h1{
-color: #959595;
+/*color: #959595;*/
+color: black;
+text-align: center;
 }
-
+#about img{
+width: 100%;
+}
+.divleft{
+width: 50%;
+margin-left: 0px;
+height: 0px;
+}
+.divright{
+width: 49%;
+border-left: 1px solid black;
+height: 1200;
+float: left;
+}
 /*begin photo panel CSS*/
 
 #photos{
-background-image: url(bwshirazmed.jpg);
-background-repeat:no-repeat;
--webkit-background-size: 100% auto;
--moz-background-size: 100% auto;
-background-size: 100% auto;
+    background: url(bwshirazmed.jpg); 
+    background-repeat: no-repeat;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    background-size: 100% auto;
 }
 #photos h2{
 	   color: white; 
@@ -316,17 +332,17 @@ content: '';
 opacity: 1;
 }
 #web{
-background-color: #262626;
-
+/*background-color: #262626;*/
+background-color: #FFFFFF;
 }
 #web > a{
 color: black;
 }
 #web h1{
-
+color: black;
 }
 #web h3{
-color: #fff;
+/*color: #fff;*/
 }
 #projects{
 background-image: url(images/bokeh58.jpg);
