@@ -120,6 +120,7 @@ position: relative;
 }
 #about{
 /*background-image: url(purplebg180.jpg)*/;
+position: relative;
 }
 
 #about h2{font-family: 'Six Caps', sans-serif;
@@ -147,14 +148,19 @@ width: 100%;
 }
 .divleft{
 width: 50%;
-margin-left: 0px;
-height: 0px;
+position:absolute;
+ top:0;
+ left:0;
 }
 .divright{
-width: 49%;
-border-left: 1px solid black;
-height: 1200;
+z-index: -1;
+width: 50%;
 float: left;
+position: relative;
+position:absolute;
+top:0;
+right:0;
+border-left: 1px solid black;
 }
 /*begin photo panel CSS*/
 
