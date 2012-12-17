@@ -35,11 +35,14 @@
     <div class="panel" id="about">
         <div class="divleft">
             <h1>I'm Mashallah Behbehani</h1>
-            
+            <p>I take the efficiency and austerity of</p>
+            <p id="backend"><%= render "shared/abouttext" %> </p>
       	</div>
         <div class="divright">
           <img src="1.jpg" />
+          <div id="backend">
           <p>I make mobile websites and web apps.</p>
+          </div>
         </div>
         
         
@@ -141,9 +144,20 @@ $("#login").hover(function () {
       $('#login').hide('slow')
       $('#circlecontent').show()  
 });
-
+$(document).ready(function() {
+$("#backend").hide()
+});
+$(function() {                   
+  $('#about').waypoint(              
+    function() {
+    $("#backend").show()
+    $("#backend").typewriter()
+    }
+  )
+});
         </script>
 <script src="waypoints.js" type="text/javascript"></script>
+<script src="jquery.text-effects.js" type="text/javascript"></script>
 <script src="jquery.horizontalNav.js" type="text/javascript"></script>
     </body>
 </html>
