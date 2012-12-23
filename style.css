@@ -97,10 +97,10 @@ padding:0px 10px;
 }
 .panel{
 width: 100%;
-min-height: 1200px;
+min-height: 1000px;
 margin:0px;
-float:left;/*
-box-shadow:inset 0px 10px 10px rgba(0,0,0,0.2);*/
+float:left;
+box-shadow:inset 0px 10px 10px rgba(0,0,0,0.3);
 }
 
 #home{
@@ -333,7 +333,7 @@ opacity: 1;
 }
 #web{
 /*background-color: #262626;*/
-background-color: #FFFFFF;
+background-image: url(images/purty_wood.png);
 }
 #web > a{
 color: black;
