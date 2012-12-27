@@ -271,6 +271,16 @@ content: '';
     background-image: url(stackoverflow.png);
 
 }
+.fblogo{
+    background-image: url(images/fblogo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.emaillogo{
+    background-image: url(images/email.png);
+
+}
 .logocircle-info{
  position: absolute;
     background: rgba(255,51,0, 0.8);
@@ -340,8 +350,8 @@ opacity: 1;
 }
 #web{
 /*background-color: #262626;*/
-background-image: url(images/purty_wood.png);
-}
+/*background-image: url(images/purty_wood.png);
+*/}
 #web > a{
 color: black;
 }
@@ -352,11 +362,11 @@ color: black;
 /*color: #fff;*/
 }
 #projects{
-background-image: url(images/bokeh58.jpg);
+/*background-image: url(images/bokeh58.jpg);*/
 
 }
 #contact{
-background-image: url(images/bokeh9.jpg); 
+/*background-image: url(images/bokeh9.jpg); */
 }
 
 
