@@ -122,7 +122,12 @@ position: relative;
 /*background-image: url(images/blurpattern.jpg);
 background-repeat: repeat-y;*/
 }
-
+#whitestar1{
+position: absolute;
+margin-top: 3%;
+right: 3%;
+width: 30%;
+}
 #about h2{font-family: 'Six Caps', sans-serif;
 font-size: 3em;
 color:#FFFFFF;
