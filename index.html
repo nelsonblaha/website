@@ -42,7 +42,8 @@
                     <img class="diamond" src="images/dpurple.png">
               		</div>
           <div class="divright">
-          <p>I take the efficiency and austerity of backend code,</p>
+          <p>I take the efficiency and austerity of</p>
+          <p id="backend"> backend code</p>
           </div>
           <div class="divright">
           <p>test</p>
@@ -165,6 +166,23 @@ $("#login").hover(function () {
 });
 
         </script>
+        <script type="text/javascript">
+        $(function() {                     
+        $('#about').waypoint(              
+        function() {
+        $('#backend').typewrite({
+    'delay': 100, //time in ms between each letter
+    'extra_char': '', //"cursor" character to append after each display
+    'trim': true, // Trim the string to type (Default: false, does not trim)
+    'callback': null // if exists, called after all effects have finished
+});
+    
+          }
+    
+          )
+          });
+        </script>
+<script src="js/jquerytypewriter.js" type="text/javascript"></script>
 <script src="waypoints.js" type="text/javascript"></script>
 <script src="jquery.horizontalNav.js" type="text/javascript"></script>
     </body>
