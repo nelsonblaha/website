@@ -46,6 +46,10 @@ margin-right: 5%;
 }
 
 /*menu CSS starts here*/
+#navdiv{
+z-index: 9;
+position: fixed;
+}
 .nav{
 position: absolute;
 right: 0px;    
@@ -363,13 +367,14 @@ opacity: 1;
 }
 #web{
 /*background-color: #262626;*/
-/*background-image: url(images/purty_wood.png);
-*/}
+background-image: url(images/purty_wood.png);
+}
 #web > a{
 color: black;
 }
 #web h1{
-color: black;
+color: #fff;
+text-shadow: 7px 3px 6px rgba(71,80,23,0.3);
 }
 #web h3{
 /*color: #fff;*/
