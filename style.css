@@ -149,15 +149,17 @@ width: 100%;
 .divleft{
 width: 50%;
 margin-left: 0px;
-height: 0px;
+
 }
 .divright{
 width: 49%;
 border-left: 1px solid black;
-height: 1200;
 float: left;
 }
-
+.diamond{
+background-image: url(images/dpurple.png);
+max-width: 70px;
+}
 #turboblur{
 bottom: 0px;
 margin-left: 0 auto;
