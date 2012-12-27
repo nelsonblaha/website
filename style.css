@@ -291,6 +291,7 @@ content: '';
 .twitterlogo{
     background-image: url(images/twitter.png);
     background-size: cover;
+    background-color: #80bfc6;
 
 }
 .logocircle-info{
