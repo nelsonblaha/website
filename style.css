@@ -283,6 +283,11 @@ content: '';
     background-image: url(images/email.png);
 
 }
+.twitterlogo{
+    background-image: url(images/twitter.png);
+    background-size: cover;
+
+}
 .logocircle-info{
  position: absolute;
     background: rgba(255,51,0, 0.8);
@@ -369,6 +374,10 @@ color: black;
 }
 #contact{
 /*background-image: url(images/bokeh9.jpg); */
+/*background-color: #6cc6c6;*/
+background-color: #80bfc6;
+
+color: #fff;
 }
 
 
