@@ -17,9 +17,9 @@
     <body>
     
        
-    
-    <div class="panel" id="home">
-        <img class="bgimage" src="2.jpg" ></img>
+     
+    <div id="home">
+       
         <div class="header"><!-- 
         <h1>MASHALLAH BEHBEHANI</h1> -->
         </div>
@@ -34,18 +34,19 @@
             </ul>
           </div>
     </div>
+    <img class="bgimage" src="images/germany.jpg" ></img>
     <div class="panel" id="about">
             <div class="divright">
                 <h1>I'm Mashallah Behbehani</h1>
             </div>
               		<div class="divright" id="bio">
-                        <img src="1.jpg" />
+                        <img class="fill" src="images/2.jpg" />
               			<p>I make mobile websites and web apps.</p>
                     <!-- <img class="diamond" src="images/dpurple.png"> -->
               		</div>
           <div id="aboutbackend" class="divright">
-          <p>I love to combine the efficiency and austerity of</p>
-          <p id="backend"> backend code</p>
+          <p>I love to combine the efficiency and austerity of backend code</p>
+          <!-- <p id="backend"> backend code</p> -->
           </div>
           <div id="aboutfrontend" class="divright">
 
@@ -147,6 +148,13 @@
     </div>
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>        
         <script type="text/javascript" src="jquery.easing.1.3.js"></script>
+        <script type="text/javascript">
+        $(".divright").hover(function() {
+    $("#aboutbackend").animate(
+            {"left": "0px"},
+            "slow");
+});
+        </script>
         <script type="text/javascript">
           $(function() {
     $('#menu a').bind('click',function(event){
