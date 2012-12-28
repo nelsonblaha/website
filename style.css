@@ -109,6 +109,7 @@ box-shadow:inset 0px 10px 10px rgba(0,0,0,0.3);
 
 #home{
 /*background-image: url(japan1.jpg); */
+background-color: #80bfc6;
 }
 .bgimage {
     z-index: -1;
@@ -125,12 +126,25 @@ position: relative;
 #about{
 /*background-image: url(images/blurpattern.jpg);
 background-repeat: repeat-y;*/
+height: 2000px;
 }
-#whitestar1{
+#aboutbackend{
+padding-top: 10%;
+}
+#aboutfrontend{
+padding-top: 30%;
+}
+#whitespike1{
 position: absolute;
 margin-top: 3%;
 right: 3%;
 width: 30%;
+}
+#whitestar1{
+position: absolute;
+margin-top: 40%;
+left: 3%;
+width: 25%;
 }
 #about h2{font-family: 'Six Caps', sans-serif;
 font-size: 3em;
@@ -524,7 +538,7 @@ color: #fff;
 @-webkit-keyframes wordpress   { 0%  { width:0px;} 100%{ width:80%;}  }
 
 /*smartphone responsive layout*/
-@media only screen and (min-width: 0px) and (max-width: 679px) {
+@media only screen and (min-width: 0px) and (max-width: 999px) {
 h1{
 font-size: 5em;
 }
