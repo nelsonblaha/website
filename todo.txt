@@ -1,0 +1,1 @@
+enhancement: Accomplishment template: Reddit profile with karma metric numeral

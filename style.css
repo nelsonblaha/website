@@ -46,6 +46,10 @@ margin-right: 5%;
 }
 
 /*menu CSS starts here*/
+#navdiv{
+z-index: 9;
+position: fixed;
+}
 .nav{
 position: absolute;
 right: 0px;    
@@ -97,21 +101,24 @@ padding:0px 10px;
 }
 .panel{
 width: 100%;
-min-height: 1200px;
+min-height: 1000px;
 margin:0px;
-float:left;/*
-box-shadow:inset 0px 10px 10px rgba(0,0,0,0.2);*/
+float:left;
+box-shadow:inset 0px 10px 10px rgba(0,0,0,0.3);
 }
 
 #home{
 /*background-image: url(japan1.jpg); */
+background-color: #80bfc6;
 }
 .bgimage {
     z-index: -1;
     width: 100%;
 
 }
-
+.fill{
+width: 100%;
+}
 
 
 .header{
@@ -119,10 +126,31 @@ display:block;
 position: relative;
 }
 #about{
-/*background-image: url(purplebg180.jpg)*/;
-position: relative;
+/*background-image: url(images/blurpattern.jpg);
+background-repeat: repeat-y;*/
+height: 2000px;
 }
-
+#aboutbackend{
+padding-top: 40%;
+position: absolute;
+width:50%;
+left: -50%;
+}
+#aboutfrontend{
+padding-top: 30%;
+}
+#whitespike1{
+position: absolute;
+margin-top: 3%;
+right: 3%;
+width: 30%;
+}
+#whitestar1{
+position: absolute;
+margin-top: 40%;
+left: 3%;
+width: 25%;
+}
 #about h2{font-family: 'Six Caps', sans-serif;
 font-size: 3em;
 color:#FFFFFF;
@@ -148,6 +176,7 @@ width: 100%;
 }
 .divleft{
 width: 50%;
+<<<<<<< HEAD
 position:absolute;
  top:0;
  left:0;
@@ -155,6 +184,14 @@ position:absolute;
 .divright{
 z-index: -1;
 width: 50%;
+=======
+margin-left: 0px;
+
+}
+.divright{
+width: 49%;
+border-left: 1px solid black;
+>>>>>>> 370a2d55470870ce8cb98142ae0f961722966b36
 float: left;
 position: relative;
 position:absolute;
@@ -166,6 +203,15 @@ height: 1200px;
 
 #backend{/*
 margin-top: 70%;*/
+}
+.diamond{
+background-image: url(images/dpurple.png);
+max-width: 70px;
+}
+#turboblur{
+bottom: 0px;
+margin-left: 0 auto;
+margin-right: 0
 }
 /*begin photo panel CSS*/
 
@@ -275,6 +321,22 @@ content: '';
     background-image: url(stackoverflow.png);
 
 }
+.fblogo{
+    background-image: url(images/fblogo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.emaillogo{
+    background-image: url(images/email.png);
+
+}
+.twitterlogo{
+    background-image: url(images/twitter.png);
+    background-size: cover;
+    background-color: #80bfc6;
+
+}
 .logocircle-info{
  position: absolute;
     background: rgba(255,51,0, 0.8);
@@ -344,23 +406,28 @@ opacity: 1;
 }
 #web{
 /*background-color: #262626;*/
-background-color: #FFFFFF;
+background-image: url(images/purty_wood.png);
 }
 #web > a{
 color: black;
 }
 #web h1{
-color: black;
+color: #fff;
+text-shadow: 7px 3px 6px rgba(71,80,23,0.3);
 }
 #web h3{
 /*color: #fff;*/
 }
 #projects{
-background-image: url(images/bokeh58.jpg);
+/*background-image: url(images/bokeh58.jpg);*/
 
 }
 #contact{
-background-image: url(images/bokeh9.jpg); 
+/*background-image: url(images/bokeh9.jpg); */
+/*background-color: #6cc6c6;*/
+background-color: #80bfc6;
+
+color: #fff;
 }
 
 
@@ -496,7 +563,7 @@ background-image: url(images/bokeh9.jpg);
 @-webkit-keyframes wordpress   { 0%  { width:0px;} 100%{ width:80%;}  }
 
 /*smartphone responsive layout*/
-@media only screen and (min-width: 0px) and (max-width: 679px) {
+@media only screen and (min-width: 0px) and (max-width: 999px) {
 h1{
 font-size: 5em;
 }
